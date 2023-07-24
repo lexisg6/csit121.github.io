@@ -1,0 +1,113 @@
+h3{
+    color: #ef6c00;
+    background-color: #a1e8d9;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  li, p{
+    font-family: Verdana;
+  }
+  
+  h2{
+    font-size: 20px;
+    color: #ffef;
+  }
+  
+  h1{
+    font-size: 35px;
+  }
+  
+  #storyNLink a{
+    color: darkcyan;
+    font-family: Verdana;
+  }
+
+#topbutton a{
+  background-color: #4db6ac;
+  padding: 10px;
+  color: white;
+  font-family: Arial;
+  font-weight: bold;
+}
+
+  #headings{
+    background-color: #4db6ac;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    font-family: Arial;
+  }
+
+img{
+    max-width:75%;
+    margin: 5%;
+    margin-left: 10%;
+    }
+
+
+/*small screen*/
+@media screen and (max-width: 767px){
+  
+  #imagebelow{
+    display: none;
+  }
+}
+
+
+
+/*big screen*/
+@media screen and (min-width: 768px){
+  #imageabove{
+    display: none;
+  }
+
+  #imagebelow{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #imagebelow img{
+    margin: 2%;
+    margin-left: 5%;
+    width: 40%;
+  }
+  
+  #topbutton{
+    display:none;
+  }
+  
+  body{
+  background-color: white;
+  box-sizing: border-box;
+  }
+  
+  #content{
+    display: flex; 
+  }
+  
+  #ingredients{
+    flex: 1;
+    margin: 5px;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+  
+  #directions{
+    flex: 2;
+    margin: 5px;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+  
+  #storyNLink{
+    margin: 20px;
+    position: relative;
+  }
+}
+
+
+
+
+
+
