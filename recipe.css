@@ -1,9 +1,7 @@
 /*TABLE LAB */
 #NutritionFacts{
   margin: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  min-width: 100px;
+  
 }
 
 table {
