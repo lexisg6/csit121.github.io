@@ -1,7 +1,6 @@
 /*TABLE LAB */
 #NutritionFacts{
   margin: 20px;
-  
 }
 
 table {
@@ -117,6 +116,12 @@ img{
     margin: 2%;
     margin-left: 5%;
     width: 40%;
+  }
+
+  #imagebelow video{
+    margin: auto;
+    padding: 10px;
+    width: 60%;
   }
   
   #topbutton{
